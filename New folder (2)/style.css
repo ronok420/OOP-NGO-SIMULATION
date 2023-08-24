@@ -1,0 +1,111 @@
+body {
+    font-family: 'Cabin Condensed', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange_colour {
+    color: darkorange;
+}
+
+p {
+    font-size: 20px;
+}
+
+.flexible {
+    display: flex;
+
+}
+
+.half_width {
+    width: 50%;
+    padding-left: 3%;
+    text-decoration: solid;
+
+}
+
+.half_width img {
+    width: 37%;
+    padding-top: 10%;
+    padding-left: 15%;
+
+}
+
+.link_button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px ;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.top_banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.div_display_flex {
+    display: flex;
+    margin-top: 100px;
+}
+
+#single_ex {
+    padding-left: 52.7%;
+}
+
+.exp_item {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 7%;
+    box-shadow: 10px 10px 40px orangered;
+
+
+}
+
+.last_section {
+    margin-bottom: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+#border_left1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 200), rgb(255, 0, 170));
+    border-image-slice: 1;
+
+}
+
+#border_left2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(255, 123, 0, 0.849), rgba(0, 195, 255, 0.986));
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+.gg{
+    font-size: 20px;
+}
+
+
+
+
+#footer-instructor{
+   margin-top: 200px;
+}
