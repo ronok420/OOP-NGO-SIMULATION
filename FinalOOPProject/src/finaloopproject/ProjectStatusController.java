@@ -4,11 +4,7 @@
  */
 package finaloopproject;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -19,14 +15,13 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javax.swing.text.Document;
 
 /**
  * FXML Controller class
  *
- * @author usnot
+ * @author KING
  */
-public class ReportController implements Initializable {
+public class ProjectStatusController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -37,18 +32,9 @@ public class ReportController implements Initializable {
     }    
 
     @FXML
-    private void generateReportOnClick(ActionEvent event) {
+    private void backbutonOnClick(ActionEvent event) throws IOException {
         
-        
-    }
-
-    @FXML
-    private void publishReportOnCLick(ActionEvent event) {
-    }
-
-    @FXML
-    private void backbutton(ActionEvent event) throws IOException {
-         Parent scene2Parent = FXMLLoader.load(getClass().getResource("Researcher.fxml"));//here switching scene fxml should be attached
+       Parent scene2Parent = FXMLLoader.load(getClass().getResource("Jurnalist.fxml"));//here switching scene fxml should be attached
 Scene scene2 = new Scene(scene2Parent);
 Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();  
 stg2.setScene(scene2);

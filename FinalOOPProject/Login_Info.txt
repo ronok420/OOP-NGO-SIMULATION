@@ -3,3 +3,7 @@
 r2,1,Researcher
 j1,1,Journalist
 r1,1,Researcher
+j1,1,Journalist
+j1,1,Journalist
+j1,1,Journalist
+a1,1,Admin

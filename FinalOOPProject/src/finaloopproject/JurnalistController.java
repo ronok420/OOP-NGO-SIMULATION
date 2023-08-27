@@ -44,7 +44,6 @@ stg2.show();
     private void rpromotengoScene(ActionEvent event) {
     }
 
-    @FXML
     private void projectStatusscne(ActionEvent event) throws IOException {
 Parent scene2Parent = FXMLLoader.load(getClass().getResource("ProjectStatus.fxml"));//here switching scene fxml should be attached
 Scene scene2 = new Scene(scene2Parent);
@@ -71,6 +70,17 @@ Scene scene2 = new Scene(scene2Parent);
 Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();  
 stg2.setScene(scene2);
 stg2.show();
+    }
+
+    @FXML
+    private void editArticalONaction(ActionEvent event) throws IOException {
+        
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("EditArtical.fxml"));//here switching scene fxml should be attached
+Scene scene2 = new Scene(scene2Parent);
+Stage stg2 = (Stage)((Node)event.getSource()).getScene().getWindow();  
+stg2.setScene(scene2);
+stg2.show();
+        
     }
     
 }
