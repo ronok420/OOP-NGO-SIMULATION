@@ -5,6 +5,7 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="AnchorPane" prefHeight="474.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finaloopproject.AboutController">
@@ -16,11 +17,16 @@
       <Label layoutX="31.0" layoutY="230.0" text="Current projects" />
       <TableView fx:id="tableview" layoutX="29.0" layoutY="268.0" prefHeight="183.0" prefWidth="542.0">
         <columns>
-          <TableColumn fx:id="projectnamecolumn" minWidth="0.0" prefWidth="199.0" text="Current Project Name" />
-          <TableColumn fx:id="datecolumn" prefWidth="170.0" text="Date" />
-            <TableColumn fx:id="aboutColumn" prefWidth="172.0" text="About" />
+            <TableColumn fx:id="numbercolumn" prefWidth="104.33334350585938" text="Project Number" />
+          <TableColumn fx:id="projectnamecolumn" minWidth="0.0" prefWidth="142.66668701171875" text="Current Project " />
+          <TableColumn fx:id="datecolumn" minWidth="0.0" prefWidth="80.33331298828125" text="Date" />
+            <TableColumn fx:id="aboutColumn" prefWidth="212.0" text="About" />
         </columns>
       </TableView>
       <Button layoutX="517.0" layoutY="12.0" mnemonicParsing="false" onAction="#backbuttonOnclick" text="Back" />
+      <TextField fx:id="ststementfxid" layoutX="195.0" layoutY="14.0" promptText="Statement" />
+      <Button layoutX="367.0" layoutY="12.0" mnemonicParsing="false" onAction="#statementOnclick" text="Take statement" />
+      <Button layoutX="376.0" layoutY="120.0" mnemonicParsing="false" onAction="#historybuttonOnclick" text="Take history" />
+      <TextField fx:id="historyfxid" layoutX="192.0" layoutY="120.0" promptText="History" />
    </children>
 </AnchorPane>

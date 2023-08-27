@@ -6,13 +6,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="finaloopproject.PublishArticalController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finaloopproject.PublishArticalController">
    <children>
       <TextField fx:id="articalID" layoutX="82.0" layoutY="57.0" promptText="Artical id" />
       <TextField fx:id="articaltitlefxid" layoutX="320.0" layoutY="57.0" promptText="Title" />
       <TextField fx:id="descriptionfxid" layoutX="84.0" layoutY="115.0" promptText="Description" />
-      <Button layoutX="331.0" layoutY="115.0" mnemonicParsing="false" onAction="#publishArticalONaction" prefHeight="31.0" prefWidth="173.0" text="Publish" />
+      <Button layoutX="325.0" layoutY="92.0" mnemonicParsing="false" onAction="#publishArticalONaction" prefHeight="31.0" prefWidth="149.0" text="Publish" />
       <TableView fx:id="ArticalViewTable" layoutX="48.0" layoutY="178.0" prefHeight="200.0" prefWidth="505.0">
         <columns>
           <TableColumn fx:id="Articalidcolumn" prefWidth="94.0" text="Artical ID" />
@@ -20,5 +19,7 @@
             <TableColumn fx:id="descriptioncolumn" prefWidth="257.0" text="Description" />
         </columns>
       </TableView>
+      <Button layoutX="527.0" layoutY="32.0" mnemonicParsing="false" onAction="#backbuttonOnActiono" text="Back" />
+      <Button layoutX="369.0" layoutY="140.0" mnemonicParsing="false" onAction="#showArticaleONtable" text="Show" />
    </children>
 </AnchorPane>
