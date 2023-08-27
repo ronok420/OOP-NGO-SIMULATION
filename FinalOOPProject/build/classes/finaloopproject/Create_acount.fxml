@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finaloopproject.Create_acountController">
+   <children>
+      <TextField fx:id="idfxid" layoutX="159.0" layoutY="81.0" promptText="Id" />
+      <TextField fx:id="passwordfxid" layoutX="159.0" layoutY="130.0" promptText="Password" />
+      <ComboBox layoutX="159.0" layoutY="185.0" prefHeight="31.0" prefWidth="187.0" promptText="Type" />
+      <Button layoutX="159.0" layoutY="247.0" mnemonicParsing="false" onAction="#createAcountOnaction" prefHeight="31.0" prefWidth="187.0" text="Create Account" />
+      <Button layoutX="489.0" layoutY="295.0" mnemonicParsing="false" onAction="#backbuttonOnaction" text="Back" />
+   </children>
+</AnchorPane>
